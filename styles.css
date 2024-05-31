@@ -7,7 +7,6 @@ body {
 .background {
     background-repeat: no-repeat;
     background-color: hsl(180, 29%, 50%);
-    /* background-size: cover; */
     background-size: cover;
     width: 100%;
     height: 11.5rem;
@@ -25,13 +24,14 @@ body {
 
 .job {
     display: flex;
+    
     border: none;
     justify-content: space-between;
     width: 100%;
     padding: 30px;
     align-items: center;
     border-radius: 8px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
 }
 
 .job div img{
