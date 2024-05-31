@@ -32,7 +32,7 @@ body {
     align-items: center;
     border-radius: 8px;
     background-color: rgb(255, 255, 255);
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 1px 1px 5px 5px hsl(193, 19%, 60%);
     
 }
 
