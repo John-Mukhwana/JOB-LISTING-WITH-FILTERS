@@ -61,7 +61,7 @@ body {
 }
 
 .left div p span:nth-child(1){
-    background-color: rgb(63, 207, 255);
+    background-color: hsl(180, 29%, 50%);
     border-radius: 13px;
     padding: 6px 15px;
     text-transform: uppercase;
