@@ -32,6 +32,8 @@ body {
     align-items: center;
     border-radius: 8px;
     background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    
 }
 
 .job div img{
@@ -103,4 +105,23 @@ h3 {
     color:  hsl(180, 29%, 50%);
     border-radius: 6px;
     font-weight: 800;
+}
+
+@media (min-width: 768px) {
+    .job {
+        flex-direction: row;
+    }
+
+    .left {
+        flex-direction: row;
+        text-align: left;
+    }
+
+    .left div p {
+        flex-direction: row;
+    }
+
+    .right {
+        justify-content: flex-end;
+    }
 }
