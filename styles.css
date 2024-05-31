@@ -125,3 +125,30 @@ h3 {
         justify-content: flex-end;
     }
 }
+
+@media (max-width: 480px) {
+    .job div img {
+        width: 40px;
+    }
+
+    .job {
+        padding: 15px;
+    }
+
+    .left div p {
+        gap: 3px;
+    }
+
+    .right span {
+        padding: 4px 8px;
+        font-size: 0.8rem;
+    }
+
+    .left div span {
+        gap: 8px;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+}
